@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Set body background color and font */
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        /* Header styles */
+        header {
+            background-image: url(assets/header.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        /* Content section styles */
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .project {
+            display: inline-block;
+            width: 300px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .project a {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Header -->
+    <header>
+        <img src="assets/avatar.jpg" alt="Avatar" style="width: 150px; border-radius: 50%;">
+        <h1>Welcome to My Portfolio</h1>
+        <p>My name is Madhav Khetan and this website is to know about me</p>
+        <p>Check out my projects</p>
+    </header>
+    
+    <!-- Content section -->
+<div align="center" id="intro">
+        <h2 align="center" class="oval-heading">ABOUT ME</h2>
+        <p align="center">Hello! I am <b>Madhav Khetan</b>, a first-year undergraduate student in the Department of <b>Civil Engineering</b> at <b>IIT Kanpur</b>. <br>
+            I am from Burhanpur City in madhya pradesh. Some of my inertests are <br>
+            <b>Web Developement|Programming|Finance</b> <br>
+            My hobbies include playing Sports like Volleyball,Badminton Cricket.
+            <br><br>
+        </p>
+    </div>
+    <section>
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="assets/1.jpg" alt="Project 1">
+            <a href="#">LAMP STACK</a>
+        </div>
+        <div class="project">
+            <img src="assets/2.jpg" alt="Project 2">
+            <a href="#">FINANCE</a>
+        </div>
+	  <div class="project">
+            <img src="assets/3.jpg" alt="Project 3">
+            <a href="#">WEB DEVELOPMENT</a>
+        </div>
+        <div class="project">
+            <img src="assets/4.jpg" alt="Project 4">
+            <a href="#">CONSULTING</a>
+        </div>
+    </section>
+
+
+
+    
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 My Portfolio. All rights reserved.
+    </footer>
+</body>
+</html>
